@@ -2,6 +2,7 @@ Name: Loggers
 Type: LoggersCategoryFolder
 Children:
 - Name: Mixer_data
+  Id: g=c983958e0d0f4f565eca29f96a724a2c
   Type: DataLogger
   Children:
   - Name: SamplingMode

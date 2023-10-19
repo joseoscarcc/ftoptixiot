@@ -30,3 +30,20 @@ Children:
        "Salt": []
       }
      }
+  - Name: ClientID
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Topic
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: DataLogger
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"c983958e0d0f4f565eca29f96a724a2c","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
