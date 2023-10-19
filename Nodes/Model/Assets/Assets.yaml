@@ -1,0 +1,4 @@
+Name: Assets
+Type: FolderType
+Children:
+- File: Mixer/Mixer.yaml

@@ -1,0 +1,15 @@
+Name: Mixer
+Type: FolderType
+Children:
+- Name: Temperature
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Pressure
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Vibration
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
