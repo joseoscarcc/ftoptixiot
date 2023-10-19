@@ -1,2 +1,32 @@
 Name: NetLogic
 Type: NetLogicCategoryFolder
+Children:
+- Name: PublishLogic
+  Type: NetLogic
+  Children:
+  - Name: Broker
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Port
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Username
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Password
+    Type: BaseDataVariableType
+    DataType: PasswordHash
+    Value: 
+     {
+      "TypeId": {
+       "Id": 252,
+       "Namespace": 1
+      },
+      "Body": {
+       "Hash": [],
+       "Salt": []
+      }
+     }
